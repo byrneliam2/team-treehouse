@@ -1,23 +1,27 @@
 import React, { Component } from 'react';
 import '../App.css';
+import Landing from './Landing'
 
 class App extends Component {
   constructor (props) {
   super(props)
   this.state = {
-    stage: 0
+    step: 0
   }
-  this.nextStage = this.nextStage.bind(this)
+  this.nextStep = this.nextStep.bind(this)
 }
-  nextStage() {
-    this.setState({stage: this.state.stage++})
+  nextStep() {
+    this.setState({step: this.state.step + 1 })
+    console.log(this.state.step)
   }
   componentWillMount(){
-    console.log(this.state.stage)
+
   }
   render() {
     return (
-        <p>Hello world!</p>
+      <div>
+        <Landing nextStep={this.nextStep} step={this.state.step}/>
+      </div>
     );
   }
 }
