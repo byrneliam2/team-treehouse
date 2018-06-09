@@ -6,7 +6,7 @@
 
 Our goal is to **re-imagine government web services** by providing more accessible and intuitive platforms that aim to deliver unique experiences to users from all walks of life.
 
-#### Members:
+## Members:
 
 **DESIGNERS**
 - Rachel Bolt 
