@@ -10,9 +10,8 @@ class App extends Component {
   this.nextStage = this.nextStage.bind(this)
 }
   nextStage() {
-  this.setState({stage: this.state.stage++})
+    this.setState({stage: this.state.stage++})
   }
-
   componentWillMount(){
     console.log(this.state.stage)
   }
