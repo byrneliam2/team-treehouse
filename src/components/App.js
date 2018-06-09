@@ -9,19 +9,32 @@ class App extends Component {
     step: 0
   }
   this.nextStep = this.nextStep.bind(this)
+  this.prevStep = this.prevStep.bind(this)
 }
   nextStep() {
     this.setState({step: this.state.step + 1 })
     console.log(this.state.step)
   }
-  componentWillMount(){
-
+  prevStep(){
+    if(this.state.step >= 1 ){
+      this.setState({step: this.state.step - 1 })
+    }
+    else {
+      return
+    }
   }
+  componentWillMount(){
+  }
+
   render() {
     return (
-      <div>
-        <Landing nextStep={this.nextStep} step={this.state.step}/>
-      </div>
+      <main>
+        <div className="progressBar">
+        </div>
+        <div>
+          <Landing prevStep={this.prevStep} nextStep={this.nextStep} step={this.state.step}/>
+        </div>
+      </main>
     );
   }
 }
