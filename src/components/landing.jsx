@@ -11,6 +11,7 @@ export default class Landing extends React.Component {
   componentDidMount() {
 
   }
+  
   componentWillMount(){
     console.log(this.props)
     console.log(this.props.step)
