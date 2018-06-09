@@ -13,6 +13,6 @@ Our goal is to **re-imagine government web services** by providing more accessib
 - Ryan Walker
 
 **DEVELOPERS**
-- Edi Takutai Rose (github.com/edi-rose)
-- Liam Byrne (github.com/byrneliam2)
-- Rodney Cruden-Powell (github.com/StragglyRodney)
+- Edi Takutai Rose ([github.com/edi-rose](https://www.github.com/edi-rose))
+- Liam Byrne ([github.com/byrneliam2](https://www.github.com/byrneliam2))
+- Rodney Cruden-Powell ([github.com/StragglyRodney](https://www.github.com/StragglyRodney))
