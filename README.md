@@ -16,3 +16,7 @@ Our goal is to **re-imagine government web services** by providing more accessib
 - Edi Takutai Rose ([github.com/edi-rose](https://www.github.com/edi-rose))
 - Liam Byrne ([github.com/byrneliam2](https://www.github.com/byrneliam2))
 - Rodney Cruden-Powell ([github.com/StragglyRodney](https://www.github.com/StragglyRodney))
+
+![Screenshot of front end design](media/sshot.png)
+
+This project was done using create-react-app - use `yarn start` to run!
