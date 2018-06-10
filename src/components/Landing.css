@@ -1,3 +1,24 @@
+td {
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 1em;
+}
+
 .page {
-    font-family: 'Courier New', Courier, monospace
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+}
+
+.circle {
+    display: table-cell;
+    vertical-align: middle;
+    height: 250px;
+    width: 250px;
+    color: #ff0000;
+    border-radius: 50%;
+}
+
+.center {
+    padding: 4em 7.5em;
 }
