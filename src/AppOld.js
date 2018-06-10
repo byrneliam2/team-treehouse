@@ -1,10 +1,12 @@
 import 'rc-steps/assets/index.css';
+import 'rc-steps/assets/iconfont.css';
 import ReactDOM from 'react-dom';
 import Steps, { Step } from 'rc-steps';
 import React, { Component } from 'react';
 import './App.css';
 
 const container = document.getElementById('__react-content');
+const description = 'description';
 
 function generateSteps() {
   const n = 5;
