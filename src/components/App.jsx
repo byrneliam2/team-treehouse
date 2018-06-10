@@ -11,7 +11,7 @@ class App extends Component {
     }
     this.nextStep = this.nextStep.bind(this)
 
-    document.body.style = 'background: #00000085;';
+    document.body.style = 'background: #0f0f0f;';
   }
   
   nextStep() {

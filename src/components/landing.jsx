@@ -27,53 +27,47 @@ export default class Landing extends React.Component {
             {/* <p>Landing</p> */}
             <div class="buttonrow">
                 <div class="button" style={{color: "red"}}>
-                    <div>elderly</div>
+                    <p>elderly</p>
                 </div>
-                <div class="button" style={{color: "green"}}>
-                    <div>parent</div>
+                <div class="button" style={{color: "lime"}}>
+                    <p>parent</p>
                 </div>
                 <div class="button" style={{color: "blue"}}>
-                    <div>visitor</div>
+                    <p>visitor</p>
                 </div>
                 <div class="button" style={{color: "yellow"}}>
-                    <div>resident</div>
+                    <p>resident</p>
                 </div>
                 <div class="button" style={{color: "purple"}}>
-                    <div>disabled</div>
+                    <p>disabled</p>
                 </div>
                 <div class="button" style={{color: "purple"}}>
-                    <div>student</div>
+                    <p>student</p>
                 </div>
                 <div class="button" style={{color: "purple"}}>
-                    <div>employed</div>
+                    <p>employed</p>
                 </div>
             </div>
         </div>
         <h1>looking for information about...</h1>
-        <div className="page center">
+        <div className="page2 center">
             {/* <button onClick={this.props.nextStep}>next step </button> */}
             {/* <p>Landing</p> */}
             <div class="buttonrow">
                 <div class="button" style={{color: "red"}}>
-                    <div>elderly</div>
+                    <p>applying for financial help</p>
                 </div>
                 <div class="button" style={{color: "green"}}>
-                    <div>parent</div>
+                    <p>engaging with government</p>
                 </div>
                 <div class="button" style={{color: "blue"}}>
-                    <div>visitor</div>
+                    <p>becoming a student</p>
                 </div>
                 <div class="button" style={{color: "yellow"}}>
-                    <div>resident</div>
+                    <p>getting covered for health related costs</p>
                 </div>
                 <div class="button" style={{color: "purple"}}>
-                    <div>disabled</div>
-                </div>
-                <div class="button" style={{color: "purple"}}>
-                    <div>student</div>
-                </div>
-                <div class="button" style={{color: "purple"}}>
-                    <div>employed</div>
+                    <p>public services</p>
                 </div>
             </div>
         </div>

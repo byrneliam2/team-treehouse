@@ -1,10 +1,15 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+p {
+    color: white;
 }
 
 h1 {
     color: #ffffff;
-    font-size: 5em;
+    font-size: 4.5em;
     text-align: center;
     animation: fadein 2s;
     animation-delay: 1s;
@@ -17,10 +22,12 @@ h1 {
 }
 
 .button {
-    border: 3px solid;
-    height: 175px;
-    width: 175px;
+    border: 4px solid;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
+    color: white;
+    padding: 0.5em;
     display: flex;
     flex-shrink: 0;
     justify-content: center;
@@ -34,6 +41,12 @@ h1 {
 .page {
     color: #ffffff;
     font-size: 2em;
+}
+
+.page2 {
+    color: #ffffff;
+    font-size: 1.25em;
+    text-align: center;
 }
 
 .center {
