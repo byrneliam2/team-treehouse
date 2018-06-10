@@ -1,4 +1,5 @@
 import React from 'react'
+import './Landing.css'
 
 export default class Landing extends React.Component {
   constructor(props) {
@@ -11,7 +12,7 @@ export default class Landing extends React.Component {
   componentDidMount() {
 
   }
-  
+
   componentWillMount(){
     console.log(this.props)
     console.log(this.props.step)
@@ -19,9 +20,9 @@ export default class Landing extends React.Component {
 
   render() {
     return (
-      <div>
-        <button onClick={this.props.nextStep}>next step </button>
-        <p> Landing </p>
+      <div className="page">
+        {/* <button onClick={this.props.nextStep}>next step </button> */}
+        <p>Landing</p>
       </div>
     )
   }
