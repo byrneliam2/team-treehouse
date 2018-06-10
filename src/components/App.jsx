@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
 import Landing from './Landing'
+import './App.css'
 
 class App extends Component {
+
   constructor (props) {
     super(props)
     this.state = {
         step: 0
     }
     this.nextStep = this.nextStep.bind(this)
+
+    document.body.style = 'background: black;';
   }
   
   nextStep() {
@@ -22,6 +26,9 @@ class App extends Component {
   render() {
     return (
       <main>
+        <div>
+            <img class="govtimg" src="/govt_inv.png" alt="New Zealand Government"/>
+        </div>
         <div className="progressBar">
         </div>
         <div>

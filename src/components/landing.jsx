@@ -20,15 +20,30 @@ export default class Landing extends React.Component {
 
   render() {
     return (
-      <div className="page center">
-        {/* <button onClick={this.props.nextStep}>next step </button> */}
-        {/* <p>Landing</p> */}
-        <table>
-            <tr>
-                <td>Funding</td>
-            </tr>
-        </table>
+      <div>
+        <h1>I need help with...</h1>
+        <div className="page center">
+            {/* <button onClick={this.props.nextStep}>next step </button> */}
+            {/* <p>Landing</p> */}
+            <table>
+                <tc>
+                    <td>Visitors</td>
+                </tc>
+                <tc>
+                    <td>Health</td>
+                </tc>
+                <tc>
+                    <td>Education</td>
+                </tc>
+                <tc>
+                    <td>Working</td>
+                </tc>
+                <tc>
+                    <td>Funding</td>
+                </tc>
+            </table>
 
+        </div>
       </div>
     )
   }

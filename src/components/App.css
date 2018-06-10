@@ -1,0 +1,11 @@
+.govtimg {
+    height: 20%;
+    width: 20%;
+    padding: 1em;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
