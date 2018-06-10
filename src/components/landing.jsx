@@ -21,28 +21,61 @@ export default class Landing extends React.Component {
   render() {
     return (
       <div>
-        <h1>I need help with...</h1>
+        <h1>I am a...</h1>
         <div className="page center">
             {/* <button onClick={this.props.nextStep}>next step </button> */}
             {/* <p>Landing</p> */}
-            <table>
-                <tc>
-                    <td>Visitors</td>
-                </tc>
-                <tc>
-                    <td>Health</td>
-                </tc>
-                <tc>
-                    <td>Education</td>
-                </tc>
-                <tc>
-                    <td>Working</td>
-                </tc>
-                <tc>
-                    <td>Funding</td>
-                </tc>
-            </table>
-
+            <div class="buttonrow">
+                <div class="button" style={{color: "red"}}>
+                    <div>elderly</div>
+                </div>
+                <div class="button" style={{color: "green"}}>
+                    <div>parent</div>
+                </div>
+                <div class="button" style={{color: "blue"}}>
+                    <div>visitor</div>
+                </div>
+                <div class="button" style={{color: "yellow"}}>
+                    <div>resident</div>
+                </div>
+                <div class="button" style={{color: "purple"}}>
+                    <div>disabled</div>
+                </div>
+                <div class="button" style={{color: "purple"}}>
+                    <div>student</div>
+                </div>
+                <div class="button" style={{color: "purple"}}>
+                    <div>employed</div>
+                </div>
+            </div>
+        </div>
+        <h1>looking for information about...</h1>
+        <div className="page center">
+            {/* <button onClick={this.props.nextStep}>next step </button> */}
+            {/* <p>Landing</p> */}
+            <div class="buttonrow">
+                <div class="button" style={{color: "red"}}>
+                    <div>elderly</div>
+                </div>
+                <div class="button" style={{color: "green"}}>
+                    <div>parent</div>
+                </div>
+                <div class="button" style={{color: "blue"}}>
+                    <div>visitor</div>
+                </div>
+                <div class="button" style={{color: "yellow"}}>
+                    <div>resident</div>
+                </div>
+                <div class="button" style={{color: "purple"}}>
+                    <div>disabled</div>
+                </div>
+                <div class="button" style={{color: "purple"}}>
+                    <div>student</div>
+                </div>
+                <div class="button" style={{color: "purple"}}>
+                    <div>employed</div>
+                </div>
+            </div>
         </div>
       </div>
     )

@@ -1,6 +1,9 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h1 {
     color: #ffffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 5em;
     text-align: center;
     animation: fadein 2s;
@@ -8,10 +11,21 @@ h1 {
     animation-fill-mode: both;
 }
 
-td {
-    border: 3px solid white;
+.buttonrow {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border: 3px solid;
+    height: 175px;
+    width: 175px;
     border-radius: 50%;
-    padding: 1em 20px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    margin: 0.5em;
+    align-items: center;
     animation: fadein 2s;
     animation-delay: 2s;
     animation-fill-mode: both;
@@ -19,17 +33,7 @@ td {
 
 .page {
     color: #ffffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3em;
-}
-
-.circle {
-    display: table-cell;
-    vertical-align: middle;
-    height: 250px;
-    width: 250px;
-    color: #ff0000;
-    border-radius: 50%;
+    font-size: 2em;
 }
 
 .center {
