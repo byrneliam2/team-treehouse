@@ -34,7 +34,7 @@ h1 {
     margin: 0.5em;
     align-items: center;
     animation: fadein 2s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-fill-mode: both;
 }
 
