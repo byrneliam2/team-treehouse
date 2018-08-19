@@ -19,4 +19,6 @@ Our goal is to **re-imagine government web services** by providing more accessib
 
 ![Screenshot of front end design](media/sshot.png)
 
-This project was done using create-react-app - use `yarn start` to run!
+## What's here?
+
+This repo holds a simple prototype for the platform we came up with, written using React. The event served as a technical learning ground, a way to experience working in a mixed group of designers and developers and also as my first hackfest!
